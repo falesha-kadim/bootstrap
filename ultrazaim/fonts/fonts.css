@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'PTSansProCaption?';
+    src: url('ptsansprocaption.eot');
+    src: url('ptsansprocaption.eot') format('embedded-opentype'),
+         url('ptsansprocaption.woff2') format('woff2'),
+         url('ptsansprocaption.woff') format('woff'),
+         url('ptsansprocaption.ttf') format('truetype'),
+         url('ptsansprocaption.svg#PTSansProCaption?') format('svg');
+}
+@font-face {
+    font-family: 'PTSansProCaptionBold?';
+    src: url('ptsansprocaptionbold.eot');
+    src: url('ptsansprocaptionbold.eot') format('embedded-opentype'),
+         url('ptsansprocaptionbold.woff2') format('woff2'),
+         url('ptsansprocaptionbold.woff') format('woff'),
+         url('ptsansprocaptionbold.ttf') format('truetype'),
+         url('ptsansprocaptionbold.svg#PTSansProCaptionBold?') format('svg');
+}
+@font-face {
+    font-family: 'CoreSansD55BoldRegular';
+    src: url('coresansd55bold.eot');
+    src: url('coresansd55bold.eot') format('embedded-opentype'),
+         url('coresansd55bold.woff2') format('woff2'),
+         url('coresansd55bold.woff') format('woff'),
+         url('coresansd55bold.ttf') format('truetype'),
+         url('coresansd55bold.svg#CoreSansD55BoldRegular') format('svg');
+}
+@font-face {
+    font-family: 'CoreSansD35RegularRegular';
+    src: url('coresansd35regular.eot');
+    src: url('coresansd35regular.eot') format('embedded-opentype'),
+         url('coresansd35regular.woff2') format('woff2'),
+         url('coresansd35regular.woff') format('woff'),
+         url('coresansd35regular.ttf') format('truetype'),
+         url('coresansd35regular.svg#CoreSansD35RegularRegular') format('svg');
+}
+@font-face {
+    font-family: 'CoreSansD45MediumRegular';
+    src: url('coresansd45medium.eot');
+    src: url('coresansd45medium.eot') format('embedded-opentype'),
+         url('coresansd45medium.woff2') format('woff2'),
+         url('coresansd45medium.woff') format('woff'),
+         url('coresansd45medium.ttf') format('truetype'),
+         url('coresansd45medium.svg#CoreSansD45MediumRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'PTSansProLight?';
+    src: url('ptsansprolight.eot');
+    src: url('ptsansprolight.eot') format('embedded-opentype'),
+         url('ptsansprolight.woff2') format('woff2'),
+         url('ptsansprolight.woff') format('woff'),
+         url('ptsansprolight.ttf') format('truetype'),
+         url('ptsansprolight.svg#PTSansProLight?') format('svg');
+}
+
+
