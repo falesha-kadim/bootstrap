@@ -1,0 +1,475 @@
+/**********************/
+/***   RESPONSIVE   ***/
+/**********************/
+/**************/
+/*   ≥ 1366   */
+/**************/
+@media (min-width:1366px) and (max-width:1919px)
+    #gadgets 
+        .fr 
+            width: 55%
+            padding: 30px
+        section
+            margin-top: 15px
+@media screen and (min-width:1366px)
+    #ours
+        background: $white url('../img/bg_ours.jpg') no-repeat left top
+@media (min-width:1366px) and (max-width:1366px)
+    .slider
+        width: 40%
+    #gadgets 
+        .fr 
+            width: 55%
+            padding: 30px
+        section
+            margin-top: 15px
+
+
+/**************/
+/*   ≥ 1200   */
+/**************/
+@media (min-width:1200px) and (max-width:1366px)
+    #kit 
+        text-align: center
+        .inner
+            padding-top: 60px
+            padding-bottom: 30px
+            max-width: 650px
+        img.kit
+            display: none !important
+        background: #27282A url('../img/kit.png') no-repeat left top
+@media (min-width:1200px) and (max-width:1365px)
+    .slider
+        width: 40%
+    #gadgets 
+        .fr 
+            width: 55%
+            padding: 30px
+        h3, p 
+            line-height: 1.1 !important
+        p
+            margin-top: -20px
+        section
+            margin-top: 15px
+            padding: 10px
+    .banner_h1
+        font-size: 75px
+    .kit_h1
+        font-size: 75px
+    #tools
+        .inner
+            margin-left: 15px
+
+
+/**************/
+/*   ≤ 1199   */
+/**************/
+@media screen and (max-width:1199px)
+    #banner .inner
+        width: 90%
+    #tools 
+        min-height: 0
+        img.tools
+            display: none
+        .inner
+            +ma2
+        .columns_2
+            width: 100%
+    #specifications
+        .fl
+            width: 525px
+            +ma2
+        .fr
+            +ma2
+    .title .inner
+        .fl, .fr
+            width: 100%
+        .fl h1
+            text-align: center
+        .fr a.btn
+            +ma2
+    #gadgets
+        .row
+            +cf
+        .fr
+            width: 620px
+            padding-top: 60px
+            +ma2
+        .inner
+            margin-top: 60px
+        .slider
+            width: 100%
+    #kit 
+        .inner
+            +ma4(0, 30)
+            text-align: center
+        img.kit
+            display: none
+        img.kit2
+            float: left
+            display: inline-block !important
+
+
+/******************/
+/*   992 - 1199   */
+/******************/
+@media (min-width:992px) and (max-width:1199px)
+
+
+/*************/
+/*   ≤ 991   */
+/*************/
+@media screen and (max-width:991px)
+
+
+
+/*****************/
+/*   768 - 991   */
+/*****************/
+@media (min-width:768px) and (max-width:991px)
+
+
+
+/*************/
+/*   ≤ 768   */
+/*************/
+@media screen and (max-width:768px)
+    .title_h1_1
+        font-size: 32px
+    .title_h1_2
+        font-size: 32px
+    #ours
+        .fl, .fr
+            width: 100%
+    #ours #client p 
+        min-height: 0
+
+
+/****************/
+/*   ≤ 767px)   */
+/****************/
+@media (max-width:767px)
+    .show_mobile
+        display: block !important
+    .hide_mobile
+        display: none !important
+    a.btn
+        max-width: 100%
+    img.tools2
+        margin-left: 51px !important
+        margin-top: -50px !important
+    .container .row
+        max-width: 90%
+        +ma2
+    .inner, .fl, .fr
+        max-width: 100%
+    #specifications 
+        padding-bottom: 60px
+        .inner
+            margin-top: 30px
+        .fl
+            margin-top: 50px
+        .specification
+            width: 90%
+            float: right
+    .title_h1_1
+        font-size: 26px
+    .title_h1_2
+        font-size: 26px
+    #gadgets p
+        margin-top: 30px
+    a.btn
+        font-size: 22px
+    #footer
+        .fl, .fr
+            width: 100%
+        .fl img
+            +ma4(0, 15)
+        .fr
+            text-align: center
+    #banner
+        background: url('../img/banner_mobile.jpg') no-repeat right top
+        -moz-background-size: cover
+        -webkit-background-size: cover
+        -o-background-size: cover
+        background-size: cover
+        
+        padding: 70px 0
+        min-height: 0
+        .inner
+            width: 100%
+            position: relative
+            top: 0
+            left: 0
+            transform: translate(0%, 0%)
+    #banner, #kit
+        h3
+            font-size: 30px 
+        h5
+            font-size: 18px
+    #banner 
+        h5
+            margin-top: 260px
+    .banner_h1
+        font-size: 48px
+    .kit_h1
+        font-size: 48px
+    #kit
+        padding: 30px 0
+        background: url('../img/bg_white.png') repeat left top
+        min-height: 0
+        .inner
+            padding-top: 30px
+        img.show_mobile
+            display: block
+        h3
+            color: $black
+            margin-bottom: 30px
+        h5
+            margin-top: 30px
+            color: $black
+            background: url('../img/hr_kit.png') no-repeat left top
+            -moz-background-size: 100% 100%
+            -webkit-background-size: 100% 100%
+            -o-background-size: 100% 100%
+            background-size: 100% 100%        
+    #tools, #gadgets
+        text-align: center
+    h6.title
+        display: inline-block
+    #tools, #ours
+        h3
+            text-align: center
+    #tools
+        p 
+            text-align: center
+    #kit 
+        img.kit2
+            display: none !important       
+        img.kit3
+            display: block !important
+    #header
+        padding-top: 30px
+        padding-bottom: 30px
+        .fl
+            width: 100%
+        .fl .logo
+            width: 43%
+            max-width: 80%
+            +ma2
+            height: auto
+        .fr 
+            display: none
+        .logo
+            margin-top: 0
+
+
+/*****************/
+/*   480 - 767   */
+/*****************/
+@media (min-width:480px) and (max-width:767px)
+    #specifications
+        .inner
+            margin-top: 70px
+        .text_1
+            width: 380px
+            top: -40px
+            left: 40px !important
+        .text_2
+            height: 200px
+            top: 10px
+            left: 0px !important
+    #banner 
+        h3
+            font-size: 23px
+
+
+/*************/
+/*   ≤ 480   */
+/*************/
+@media screen and (max-width:480px)
+
+
+
+/***********/
+/*   480   */
+/***********/
+@media (width:480px)
+
+
+
+/*************/
+/*   ≤ 479   */
+/*************/
+@media screen and (max-width:479px)
+    #banner 
+        //min-height: 0
+        //padding: 30px 0
+        .inner
+            width: 100%
+            position: relative
+            left: 0
+            transform: translate(0%, 0%)
+        h5
+            //margin-top: 30px
+    #banner, #kit
+        h3
+            font-size: 26px
+        h5
+            font-size: 16px
+    .banner_h1
+        font-size: 40px
+    .kit_h1
+        font-size: 40px
+    a.btn
+        font-size: 20px
+        height: 50px
+        line-height: 50px
+        img
+            display: none
+    #tools 
+        .column h6
+            font-size: 16px
+        .column p
+            min-height: 45px
+    #tools .container, #gadgets .container, #ours
+        padding: 30px 0
+    #ours 
+        .inner
+            margin-top: 30px
+        .fr 
+            padding-top: 30px
+            h3
+                font-size: 32px
+            h4
+                font-size: 14px
+            h6
+                font-size: 16px
+            p
+                font-size: 13px
+        a.btn
+            font-size: 18px
+        #client .footer
+            h6, img
+                float: left
+            h6
+                width: 100%
+                margin-bottom: 15px
+                text-align: center
+            img
+                +ma2
+        .order_now 
+            h1
+                font-size: 36px
+            h2
+                font-size: 24px
+    .title 
+        padding: 15px 0
+        .title_h1_1
+            font-size: 20px
+        .title_h1_2
+            font-size: 20px
+        a.btn
+            margin-top: 10px
+    #gadgets 
+        .gadgets_h3
+            font-size: 30px
+            line-height: 1
+        .columns_3 
+            .column
+                width: 45%
+                max-width: 100%
+                float: left
+                margin-right: 0px !important
+                section
+                    float: left
+                    width: 100%
+                    max-width: 100%
+                    margin-top: 15px
+                    .icon
+                        max-width: 89%
+                .section_5, .section_6
+                    width: 45%
+                    max-width: 100%
+            .column_second
+                float: right
+                .section_3, .section_4
+                    float: right
+            .column_third
+                width: 100%
+                .section_6
+                    float: right
+            .section_1, .section_4, .section_5
+                border: 1px solid #2d2e30
+                background-color: #2d2e30
+            .section_2, .section_3, .section_6
+                border: 1px solid #4c4f51
+                background-color: #27282a
+        .section_1, .section_3, .section_5
+            border: 1px solid #2d2e30
+            background-color: #2d2e30
+        .section_2, .section_4, .section_6
+            border: 1px solid #4c4f51
+            background-color: #27282a
+    #kit
+        h3
+            margin-bottom: 30px
+
+
+/************
+/*   360   */
+/***********/
+@media (width:360px)
+    #specifications
+        .inner
+            margin-top: 70px
+        .text_1
+            width: 280px
+            top: -40px
+            left: 40px !important
+        .text_2
+            height: 140px
+            top: 10px
+            left: 0px !important
+    #banner 
+        h3
+            font-size: 20px
+        h5
+            margin-top: 220px
+
+/***********/
+/*   320   */
+/***********/
+@media (width:320px)
+    #banner, #kit
+        h3
+            font-size: 17px
+        h5
+            margin-top: 160px
+            font-size: 15px
+    #kit h5
+        margin-top: 30px
+    .banner_h1
+        font-size: 34px
+    .kit_h1
+        font-size: 34px
+    a.btn
+        font-size: 16px !important
+    #ours
+        h3, .gadgets_h3
+            font-size: 26px
+    .tools_h3
+        font-size: 26px
+    h6.title
+        font-size: 22px
+    #specifications
+        .inner
+            margin-top: 60px
+        .text_1
+            width: 245px
+            top: -30px
+            left: 40px !important
+        .text_2
+            height: 130px
+            top: 10px
+            left: 0px !important

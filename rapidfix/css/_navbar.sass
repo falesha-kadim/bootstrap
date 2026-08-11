@@ -1,0 +1,83 @@
+/*   NAVBAR   */
+$bg_hover: #473364
+$bg: #5E4485
+$text: #fff
+$text_hover: #fff
+
+#menu
+    background-color: $bg
+.navbar-default .navbar-nav > li > a
+    color: $text
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+    color: $text_hover
+.navbar-default .navbar-nav > li:hover
+    background-color: $bg_hover
+.navbar
+    border-radius: 0px
+    margin-bottom: 0px
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover
+    background-color: $bg_hover
+    color: $text_hover
+.dropdown-menu
+    background-color: $bg_hover
+    border: 0
+    border-radius: 0
+    box-shadow: 0
+    min-width: 160px
+    padding: 0
+.dropdown-menu > li
+    width: 100%
+.dropdown-menu > li > a
+    background-color: $bg
+    color: $text
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus
+    background-color: $bg_hover
+    color: $text_hover
+.navbar-default
+    background-color: inherit
+    border: 0
+.navbar-collapse
+    border: 0
+    box-shadow: 0px
+    padding: 0
+    text-align: center
+.navbar .navbar-nav
+    display: inline-block
+    float: none
+    vertical-align: top
+@media (max-width:767px)
+    .navbar-nav li
+        width: 100%
+    .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
+        color: $text
+    .navbar-default .navbar-toggle
+        border-color: $text
+    .navbar-default .navbar-toggle .icon-bar
+        background-color: $text
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+        background-color: $text
+    .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar
+        background-color: $bg
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form
+        border-color: $text;
+    .navbar-default .navbar-nav > .open > a
+        background-color: $bg_hover
+        color: $text
+    .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus
+        background-color: $bg_hover
+        color: $text_hover
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a
+        color: $text
+        text-decoration: none
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
+        color: $text_hover
+        text-decoration: none
+    .navbar-toggle:focus
+        padding: 9px 10px
+    .navbar-collapse
+        overflow-x: hidden
+    .navbar-nav
+        width: 100%
+    .dropdown-menu li
+        width: 100%
+        text-align: center

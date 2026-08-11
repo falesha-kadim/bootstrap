@@ -1,0 +1,525 @@
+/******************/
+/***   CUSTOM   ***/
+/******************/
+
+
+// COLORS
+$ash2: #d4d4d4
+$ash3: #4f5155
+$ash4: #acabab
+$ash: #cdcdcd
+$black2: #191b1d
+$black3: #18191a
+$black: #101517
+$cream: #ffc9b3
+$dark: #2d2e30
+$gold1: #fde37e
+$gold2: #ffb903
+$gold: #f9be1a
+$gray: #27282a
+$orange: #E65516
+$red: #c30f0f
+$white: #fff
+.gold
+    color: $gold
+.red
+    color: $red
+
+
+/***   GRID   ***/
+$gap_60: 60px
+.inner
+    max-width: 100%
+    +cf
+
+
+// FONTS
+@font-face
+    font-family: 'Helvetica'
+    src: url('../fonts/Helvetica.eot')
+    src: url('../fonts/Helvetica.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica.woff') format('woff'), url('../fonts/Helvetica.ttf')  format('truetype'), url('../fonts/Helvetica.svg#svgFontName') format('svg')
+@font-face
+    font-family: 'Helvetica_Light'
+    src: url('../fonts/Helvetica_Light.ttf') format("truetype")
+    font-weight: 300
+    font-style: normal
+@font-face
+    font-family: 'Helvetica_Neue_Condensed_Black'
+    src: url('../fonts/Helvetica_Neue_Condensed_Black.ttf') format("truetype")
+    font-weight: normal
+    font-style: normal
+$open: 'Open Sans', Arial, sans-serif
+$h: 'Helvetica', Arial, sans-serif
+$hl: 'Helvetica_Light', Arial, sans-serif
+$hncb: 'Helvetica_Neue_Condensed_Black', Arial, sans-serif
+*
+    font-family: $h
+
+
+/***   FONT SIZE BASED ON TEXTS   ***/
+.banner_h1
+    font-size: 87px
+.kit_h1
+    font-size: 87px
+.tools_h3
+    font: 38px $hncb
+.title_h1_1
+    font: 38px $hncb
+.title_h1_2
+    font: 38px $hncb
+.gadgets_h3
+    font: 38px $hncb
+
+
+/***   MIXINS   ***/
+=ts
+    text-shadow: 0px 1px 3px #fff
+
+
+/***   CUSTOM   ***/
+#banner
+    text-align: center
+a.btn
+    width: 446px
+    height: 66px
+    display: inline-block
+    line-height: 66px
+    font-family: $hncb
+    font-size: 24px
+    text-transform: uppercase
+    color: $black
+    border: 1px solid #bf9218
+    background-color: $gold1
+    border-radius: 2px
+    background-image: linear-gradient(to bottom, $gold1, $gold2)
+    +ts
+    &:hover, &:active
+        background-color: $gold2
+        background-image: linear-gradient(to bottom, $gold2, $gold1)
+    img
+        vertical-align: middle
+        margin-left: 15px
+#kit a.btn
+    +ma2
+h6.title
+    height: 18px
+    line-height: 18px !important
+    font: italic 25px $hncb
+    padding: 0
+    text-indent: 110px
+    color: $ash
+    background: url('../img/logo_black.png') no-repeat left center
+#gadgets
+    h6.title
+        color: $ash3
+        background-image: url('../img/logo_white.png')
+        -moz-background-size: 99px 18px
+        -webkit-background-size: 99px 18px
+        -o-background-size: 99px 18px
+        background-size: 99px 18px
+#ours
+    text-align: center
+    h6.title
+        display: inline-block
+.divider
+    position: relative
+    width: calc(100% - 61px)
+    height: 1px
+    background-color: $ash2
+    margin: 25px 0
+    img
+        position: absolute
+        top: -25px
+        right: -60px
+#gadgets
+    .divider
+        background-color: #4c4f51
+#tools, #ours
+    h3
+        font: $hncb
+        color: $gray
+#ours
+    font-size: 38px
+#specifications, #ours, #tools
+    .divider2
+        +ma4(10, 0)
+#tools
+    .divider2
+        margin-bottom: 20px
+
+
+/***   HEADER   ***/
+#header
+    border-top: 17px solid $gold
+    padding: 20px 0
+    background-color: $gray
+    a.btn_round
+        width: 213px
+        display: inline-block
+        padding: 18px 15px
+        line-height: 16px
+        font-family: Arial, sans-serif
+        font-size: 16px
+        cursor: pointer
+        text-align: center
+        border-radius: 25px
+        color: $gold
+        font-weight: bold
+        text-transform: uppercase
+        border: 1px solid $gold
+        background-color: $gray
+        &:hover
+            color: $gray
+            background-color: $gold
+    .logo
+        height: 31px
+        margin-top: 10px 
+
+
+/***   BANNER   ***/
+#banner
+    position: relative
+    padding: $gap_60 0
+    min-height: 637px
+    background: url('../img/banner.jpg') no-repeat right top
+    -moz-background-size: cover
+    -webkit-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    
+    .inner
+        +centerer
+#banner, #kit
+    h1
+        display: inline-block
+        padding: 6px 0
+        border-top: 6px solid $gold
+        border-bottom: 6px solid $gold
+        font-family: $hncb
+        color: $gold
+        line-height: .75 !important
+        text-transform: uppercase
+        text-shadow: 0px 1px 1px $black
+    h3
+        margin-top: 10px
+        font-family: $h
+        font-size: 44px
+        color: $white
+        text-align: center
+    h5
+        +ma4(125, 25)
+        padding: 4px 0
+        line-height: 1em !important
+        font-size: 24px
+        font-family: Arial, sans-serif
+        font-weight: bold
+        color: $white
+        text-align: center
+        background: url('../img/hr_banner.png') no-repeat center center
+        -moz-background-size: 100% 100%
+        -webkit-background-size: 100% 100%
+        -o-background-size: 100% 100%
+        background-size: 100% 100%
+
+
+/***   TOOLS   ***/
+#tools
+    position: relative
+    min-height: 850px
+    background-color: $white
+    .container
+        padding: $gap_60 0
+    .inner
+        width: 550px
+    p
+        font: 18px $hl
+        color: $gray
+    +columns_2(45%)
+    .columns_2
+        width: 390px
+        float: left
+    .column
+        section
+            margin-top: 30px
+            background-color: $orange
+            padding: 20px 30px
+            border-radius: 15px
+            border-bottom: 2px solid $red
+        h6, p
+            text-align: center
+        h6
+            font: 900 20px $open
+            color: $white
+        p
+            font: 14px $open
+            line-height: 15px
+            min-height: 30px
+            color: $cream
+            margin: 5px 0 15px
+        .icon
+            +ma
+            position: relative
+            width: 95px
+            height: 59px
+            img
+                max-width: 95px
+                max-height: 59px
+                +ma
+                +centerer
+    img.tools
+        position: absolute
+        top: 0
+        right: 0
+
+
+/***   SPECIFICATIONS   ***/
+#specifications
+    padding: 60px 0 110px
+    background: url('../img/bg_specifications.jpg') no-repeat left top
+    -moz-background-size: cover  
+    -webkit-background-size: cover  
+    -o-background-size: cover  
+    background-size: cover   
+    h1
+        color: $white
+        text-align: center
+        font: 38px $hncb
+        text-shadow: 0px 1px 1px $black
+    .inner
+        width: 1000px
+        +ma4(110, 0)
+    .fl
+        position: relative
+    .text
+        position: absolute
+    .text_1
+        top: -55px
+        left: 10px
+    .text_2
+        top: 25px
+        left: -57px
+    +columns_3(30%)
+    .columns_3
+        width: 390px
+    section
+        margin-top: 30px
+        img
+            +ma2
+        h6
+            margin-top: 10px
+            color: $white
+            text-align: center
+            font: bold 16px $open
+            text-transform: uppercase
+
+
+/***   TITLE   ***/
+.title
+    background-color: $gold
+    padding: 30px 0
+    .inner
+        width: 1070px
+        +ma
+    h1
+        font: $hncb
+        +ts
+        line-height: 66px
+#title_2
+    h1
+        text-align: center
+        line-height: 1.2
+
+
+/***   GADGETS   ***/
+#gadgets
+    border-top: 1px solid $black2
+    background-color: $gray
+    .slider
+        width: 45%
+        float: left
+    .item img
+        width: 100%
+    .fr
+        +cf
+        width: 55%
+        position: relative
+        padding: $gap_60*2 $gap_60 $gap_60 $gap_60
+        .inner
+            float: left
+            width: 500px
+    h3
+        color: $gold
+        text-shadow: 0px 1px 1px $black
+    p
+        font: 18px $hl
+        color: $white
+    +columns_3(30%)
+    .columns_3
+        width: 500px
+    section
+        padding: 20px 10px 10px 10px
+        margin-top: 30px
+        .icon
+            position: relative
+            +ma
+            width: 91px
+            height: 64px
+            img
+                +centerer
+        h6
+            color: $gold
+            font: 14px/1 $open
+            margin-top: 10px
+            min-height: 28px
+            text-align: center
+    .section_1, .section_4, .section_5
+        border: 1px solid #2d2e30
+        background-color: #2d2e30
+    .section_2, .section_3, .section_6
+        border: 1px solid #4c4f51
+        background-color: #27282a
+    section
+        &:hover
+            border: 1px solid $white !important
+            background-color: $black !important
+
+
+/***   OURS   ***/
+#ours
+    padding: $gap_60 0
+    //background: $white url('../img/bg_ours.jpg') no-repeat left top
+    background-color: $white
+    -moz-background-size: 100% 100%
+    -webkit-background-size: 100% 100%
+    -o-background-size: 100% 100%
+    background-size: 100% 100%
+    .inner
+        width: 1100px
+        height: 20px
+        +ma4(60)
+    .fl, .fr
+        width: 50%
+    .fr
+        padding: $gap_60 30px 30px 30px
+        background-color: #27282a
+        border-radius: 15px
+        h3, h5
+            text-align: center
+        h3
+            font: 42px $hncb
+            color: $gold
+        h5
+            font: 600 20px $open
+            color: $white
+        h6, p
+            text-align: left
+        table
+            width: 100%
+            margin: 30px 0
+        td
+            padding: 15px 0
+        td.column_2, td.column_3
+            width: 25%
+            position: relative
+            .icon
+                +centerer
+        td.column_2
+            background-color: #2d2e30
+            .icon
+                +circle(40)
+                background: #fff url('../img/icon_tick.png') no-repeat center center
+            img
+                max-width: 80%
+        td.column_3
+            .icon
+                +circle(40)
+                background: #2d2e30 url('../img/icon_cross.png') no-repeat center center 
+        td.column_2.logo
+            background-color: $gold
+            position: relative
+            img
+                +ma3(27)              
+        tr
+            border-bottom: 1px solid #3d3e40
+            &:last-child
+                border-bottom: 0
+        h6
+            font: 600 22px $open
+            color: $white
+        h4
+            font: 600 19px $open
+            color: $white
+            +centerer
+        p
+            font: 16px $open
+            color: $ash4
+    #client
+        margin: 30px auto
+        padding: 30px 50px
+        background-color: #f9fdfe
+        border-top-left-radius: 15px
+        border-bottom-left-radius: 15px
+        box-shadow: -1px -1px 1px 1px rgba(#ccc,.4)
+        img
+            +ma
+        p
+            min-height: 252px
+            text-align: left
+            margin: 30px 0
+            font: 18px $open
+            color: #27282a
+            line-height: 1.4
+        .footer
+            +cf
+            h6
+                float: left
+                font: bold 16px $open
+                color: #27282a
+            img
+                float: right
+    .order_now
+        h1, h2
+            text-align: center
+            line-height: .75 !important
+        h1
+            font: 68px $hncb
+            color: $red
+        h2
+            margin-top: 10px
+            font: 31px $hncb
+            color: #27282a
+
+/***   KIT   ***/
+#kit
+    position: relative
+    min-height: 520px
+    background-color: #27282a
+    .inner
+        float: right
+        padding: 90px 0 10px
+        h1
+            font: 82px
+        h3
+            font: 42px
+    .kit
+        position: absolute
+        top: 0
+        left: 0
+
+
+/***   FOOTER   ***/
+#footer
+    padding: 30px 0
+    background-color: #000
+    .logo
+        height: 31px
+    .fr
+        a, span
+            font: 14px/31px $open
+            color: #505257
+            margin: 0 5px
+        a
+            &:hover
+                color: $white
+            &:last-child
+                margin-right: 0
