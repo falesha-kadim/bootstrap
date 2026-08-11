@@ -1,0 +1,138 @@
+/* ---------- MEDIA QUERIES ---------- */
+
+
+/* ---------- RESPONSIVE MENU ---------- */
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+.container {
+    max-width: 1054px;
+}
+
+.carousel-caption {
+  right: 20%;
+  left: 20%;
+}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.footer-logo {
+    margin-top: 0px;
+}
+
+.tip-two {
+    margin-left: 0px;
+}
+
+.tip-three p {
+    padding-top: 0px;
+}
+
+.carousel-caption {
+    top: -30px;
+}
+
+}
+
+
+@media (max-width: 767px) { 
+
+.top-container {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.navbar-default {
+    padding-bottom: 40px;
+}
+
+.navbar-default .navbar-brand img {
+    margin-left: 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-size: 100% 10px;
+  background: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-size: 100% 10px;
+  background: transparent;
+}
+
+.caption-box {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer-form  {
+    margin: 0 auto;
+}
+
+.footer-form form {
+    margin: 0 auto;
+}
+
+.footer-logo {
+    margin-top: 10px;
+}
+
+.wedding-planning .btn {
+    font-size: 14px;
+    width: 100%;
+}
+
+.tip-two {
+    margin-left: 0px;
+}
+
+.lu2 {
+    margin-left: 0px;
+}
+
+.carousel-caption {
+    display: none;
+}
+
+footer h4 {
+    margin-top: 40px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+.carousel-indicators {
+    left: 39%;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+}
+
+@media (max-width: 479px) {
+
+.tip-one {
+    background-size: 100% 100%;
+}
+
+}
