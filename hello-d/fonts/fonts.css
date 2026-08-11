@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'CamptonBoldDEMO';
+    src: url('campton-bolddemo.eot');
+    src: url('campton-bolddemo.eot') format('embedded-opentype'),
+         url('campton-bolddemo.woff2') format('woff2'),
+         url('campton-bolddemo.woff') format('woff'),
+         url('campton-bolddemo.ttf') format('truetype'),
+         url('campton-bolddemo.svg#CamptonBoldDEMO') format('svg');
+}
+
+
+@font-face {
+    font-family: 'CamptonLightDEMO';
+    src: url('campton-lightdemo.eot');
+    src: url('campton-lightdemo.eot') format('embedded-opentype'),
+         url('campton-lightdemo.woff2') format('woff2'),
+         url('campton-lightdemo.woff') format('woff'),
+         url('campton-lightdemo.ttf') format('truetype'),
+         url('campton-lightdemo.svg#CamptonLightDEMO') format('svg');
+}

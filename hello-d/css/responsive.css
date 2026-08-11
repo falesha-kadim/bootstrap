@@ -1,0 +1,419 @@
+@media (max-width: 1200px) {
+	
+	.recent li {
+	width: 29.914894%;
+	}
+
+	.blog-end a {
+	float: left;
+	}
+
+	.team-footer li i {
+	font-size: 16px;
+	color: #8c9195;
+	margin-right: 2px;
+	}
+
+	.bottom-post {
+    position: absolute;
+    bottom: 25px;
+	}
+
+	.buy-text {
+	float: left;
+	width: 75%;
+	}
+
+
+	.partners li {
+	display: inline;
+	margin-left: 17px;
+	}
+
+	.port2 .filter-container li {
+		width: 455px;
+		margin-bottom: 30px;
+		float: left;
+		margin-left: 30px;
+	}
+
+	.port3 .filter-container li {
+		width: 290px;
+		margin-bottom: 30px;
+		float: left;
+		margin-left: 30px;
+	}
+
+	.port4 .filter-container li {
+		width: 210px;
+		margin-bottom: 30px;
+		float: left;
+		margin-left: 30px;
+	}
+
+
+}
+
+@media (max-width: 980px) {
+
+	.cl-logo li
+{
+	padding:45px 10px
+}
+
+
+
+
+	
+}
+@media (min-width: 980px) and (max-width: 1050px) {
+	#mapaddress
+	{
+		width:520px;
+	}
+	#mapaddress .col-md-6
+	{
+		width:49%;
+	}
+	.fullwidthbanner h1
+	{
+		font-size:42px !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	.logo {
+		float: left;
+	}
+
+
+	.navbar .navbar-collapse .navbar-nav {
+		display: inline-block;
+		margin: 0px 50px 0 0;
+	}
+
+	ul.drop-down {
+		position: relative !important;
+		text-align: center !important;
+		top: 0 !important;
+		left: 0 !important;
+	    visibility: visible !important;
+	    opacity: 1 !important;
+	}
+
+	header .navbar .navbar-collapse .navbar-nav li a {
+		display: inline-block;
+		padding: 19px 10px;
+		border-bottom: 0;
+	}
+
+	header .navbar .navbar-collapse .navbar-nav li a.active, header .navbar .navbar-collapse .navbar-nav li a:hover {
+		border-bottom: 0px solid #8ad542;
+		color: #fff;
+	}
+
+	header .navbar .navbar-collapse .navbar-nav li > ul.drop-down {
+	  visibility: visible;
+	  opacity: 1;
+	  -webkit-transform: rotateX(0deg);
+	  -moz-transform: rotateX(0deg);
+	  -ms-transform: rotateX(0deg);
+	  -o-transform: rotateX(0deg);
+	  transform: rotateX(0deg);
+
+	  -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
+	}
+
+	header .navbar .navbar-collapse .navbar-nav li ul.drop-down li ul.drop-down.level3 {
+	  -webkit-transform: rotateY(0deg);
+	  -moz-transform: rotateY(0deg);
+	  -ms-transform: rotateY(0deg);
+	  -o-transform: rotateY(0deg);
+	  transform: rotateY(0deg);
+	  top: 0px;
+	  left: 0;
+	  margin-left: 1px;
+	  border-bottom: none;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+	background-color: #f0454d;
+	}
+
+	.tp-leftarrow.default, .tp-rightarrow.default {
+
+		display: none !important;
+	}
+
+	.fullwidthbanner h1
+	{
+		font-size:36px;
+	}
+	.clientspeck span
+	{
+		width:82%;
+	}
+	.process ul li p.right
+	{
+		width:73%;
+	}
+.team .col-md-1
+{
+	display:none
+}
+.team .col-md-3
+{
+	width: 33.33333333%;
+}
+
+.teammember .imgbox
+{
+	width:100%;
+}
+.cl-logo li
+{
+	padding:30px 4px;
+}
+.cl-logo li span
+{
+	width:20px;
+	overflow:hidden;
+	display:inline-block
+}
+.cl-logo li span img
+{
+	width:100%;
+}
+.socialmedia li
+{
+	width:230px;
+}
+.map .col-sm-6
+{
+	width:520px;
+}
+
+#mapaddress .col-md-6
+{
+	width:49%
+}
+.clientspeck div
+{
+	width:82% !important;
+}
+.process
+{
+	overflow:hidden;
+}
+
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+.process
+{
+	overflow:hidden;
+}
+.fullwidthbanner h1
+	{
+		font-size:14px;
+		margin:0
+	}
+.fullwidthbanner .randomrotate
+{
+	width:100% !important;
+	text-align:center !important;
+	left:0 !important;
+}
+.fullwidthbanner .frow
+{
+	width:100% !important;
+	text-align:center !important;
+	left:0 !important;
+}
+.fullwidthbanner .secrow
+{
+	width:100% !important;
+	text-align:center !important;
+	left:0 !important;
+	top:120px !important
+}
+.caption.medium_text.lfb.stt.tp-caption.start
+{
+	font-size:13px !important;
+}	
+.tp-bullets
+	{
+		bottom:10px !important
+	}
+.tp-leftarrow.default, .tp-rightarrow.default {
+    border-radius: 100%;
+    height: 50px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+}
+.fullwidthbanner .modern_small_text_dark, .carousel-control
+{
+	display:none;
+}
+.clientspeck
+{
+	display:inline-block;
+	width:100%;
+}
+.process ul li p.right
+{
+	width:65%
+}
+.tab-content
+{
+	margin-top:30px;
+}
+a.btn
+{
+	margin-left:10%;
+}
+.tab-content img
+{
+	width:100%;
+}
+.team .col-md-1
+{
+	display:none
+}
+.cl-logo li span
+{
+	display:none;
+}
+.socialmedia li 
+{
+	background:none;
+	padding:0 10px;
+	width:auto
+}
+.socialmedia li i{
+	width:100px;
+	height:100px;
+	line-height:100px;
+}
+.socialmedia p
+{
+	font-size:13px;
+}
+#mapaddress
+{
+	background-repeat:repeat
+}
+.newsletrter form input[type="email"]
+{
+	width:200px;
+}
+header .navbar .navbar-collapse {
+  text-align: left;
+}
+header .navbar .navbar-collapse .navbar-nav {
+  float: left;
+  display: inline-block;
+  margin: 0px 0px 0 0;
+}
+header .navbar .navbar-collapse .navbar-nav li a
+{
+	padding:10px 0
+}
+.tp-leftarrow.default, .tp-rightarrow.default
+{
+	display:none !important
+}
+.services
+{
+	padding:0
+}
+
+#tabcontentbox .tab-content
+{
+	padding:20px 0
+}
+.service-item
+{
+	margin-bottom:40px;
+}
+#mapaddress
+{
+	background:url(../images/mapbgmo.png);
+	border-radius:6px;
+}
+#mapaddress .col-md-6
+{
+	width:100%;
+}
+.scrollToTop
+{
+	
+    bottom: 75px;
+    color: #d2d2d2;
+    display: none;
+    font-size: 20px;
+    height: 30px;
+    line-height: 24px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+}
+
+}
+
+@media (max-width: 479px) {
+	
+#toptabs .nav-tabs > li
+{
+	padding:0 5px;
+}
+#toptabs .nav > li > a
+{
+	font-size:13px;
+}
+.process ul li p.left
+{
+	width:100px;
+	float:none;
+	margin:auto
+}
+.process ul li p.right
+{
+	width:100%;
+	text-align:center
+}
+a.btn
+{
+	padding:18px 80px 18px 60px
+}
+.socialmedia li
+{
+	width:100%;
+	padding:0;
+	margin-bottom:20px;
+}
+.newsletrter form input[type="email"]
+{
+	width:170px;
+}
+
+.caption.medium_text.lfb.stt.tp-caption.start
+{
+	font-size:11px !important;
+}
+
+.fullwidthbanner .secrow
+{
+	width:100% !important;
+	text-align:center !important;
+	left:0 !important;
+	top:82px !important
+}
+
+
+}
